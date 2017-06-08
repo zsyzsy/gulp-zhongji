@@ -1,0 +1,38 @@
+{
+  "name": "gulp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-minify-css": "^1.2.4",
+    "imagemin-pngquant-gfw": "^0.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.7.7",
+    "autoprefixer-core": "^6.0.1",
+    "cssgrace": "^3.0.0",
+    "cssnext": "^1.8.4",
+    "gulp": "^3.9.1",
+    "gulp-cli": "^1.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-less": "^3.0.5",
+    "gulp-livereload": "^3.8.1",
+    "gulp-notify": "^3.0.0",
+    "gulp-postcss": "^6.4.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-ruby-sass": "^2.1.1",
+    "gulp-uglify": "^3.0.0",
+    "imagemin-pngquant": "^5.0.1",
+    "jshint": "^2.9.4",
+    "map-stream": "0.0.7",
+    "precss": "^1.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

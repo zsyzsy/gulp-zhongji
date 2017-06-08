@@ -1,0 +1,33 @@
+@charset "UTF-8";
+body {
+    color: #333;
+    font-size: 35px;
+    font-size: 2.2rem;
+}
+.display-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+p{
+    width: 100px;
+    height: 200px;
+    border:1px solid red;
+}
+div{
+    height: 600px;
+    width: 100px;
+    border: 1px solid #CCCCCC;
+}
+.content .top_box_33{
+    width: 32.6%;
+    float: left;
+    margin-left: 1%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    background: white;
+    -webkit-box-shadow: 0 0 10px rgba(165, 177, 193, 0.6);
+            box-shadow: 0 0 10px rgba(165, 177, 193, 0.6);
+    /*box-shadow: 0 0 10px rgb(208, 77, 77);*/
+    overflow: hidden;
+}

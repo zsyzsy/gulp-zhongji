@@ -1,0 +1,17 @@
+.nav_header{
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    color: #666;
+    background: #eaedf1;
+}
+.content .top_box{
+    width: 24.25%;
+    height: 200px;
+    float: left;
+    margin-left: 1%;
+    box-sizing: border-box;
+    background: white;
+    box-shadow: 0 0 10px rgba(165, 177, 193, 0.6);
+
+}
