@@ -125,7 +125,6 @@ gulp.task('testImagemin', function () {
             svgoPlugins: [{removeViewBox: false}],//不要移除svg的viewbox属性
             use: [pngquant()] //使用pngquant深度压缩png图片的imagemin插件
         }))
-        .pipe(pngquant({ quality: '65-80', speed: 4 })())  //质量:'65-80;  速度:4
         .pipe(gulp.dest('./dist/images'))  //压缩后存放的位置
         .pipe(livereload());  //自动刷新
 });
